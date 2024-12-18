@@ -4,8 +4,6 @@ import cart from '../images/card.svg'
 import user from '../images/user.svg'
 import { SlBasket } from 'react-icons/sl'
 import { CiUser } from "react-icons/ci";
-import { MdFavoriteBorder } from "react-icons/md";
-import { BiUser } from "react-icons/bi";
 
 import '../Css/Main.css'
 import { Link } from 'react-router-dom'
@@ -21,7 +19,7 @@ function Main() {
 					</li>
 					<li>
 						<Link to='/favorites'>
-						<MdFavoriteBorder className='favorite-icon' />
+							<img src={like} alt='' />
 						</Link>
 					</li>
 					<li>
@@ -31,7 +29,8 @@ function Main() {
 					</li>
 					<li>
 						<Link to='/profile'>
-						<CiUser className='profile-icon' />
+						
+							<img src={user} alt='' />
 						</Link>
 					</li>
 				</ul>
