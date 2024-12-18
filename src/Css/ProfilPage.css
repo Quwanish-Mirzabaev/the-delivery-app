@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', serif;
+}
+
+.container-profile-page {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.div_zagolovok {
+  top: 0;
+  border-radius: 30px 30px 0px 0px;
+  width: 100%;
+  height: 160px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5cb58;
+  z-index: 1;
+  padding: 20px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.cont-user-form {
+  background-color: #f5f5f5;
+  border-radius: 40px 40px 30px 30px;
+  position: relative;
+  height: 690px;
+  margin-top: 130px;
+  z-index: 2;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-photo {
+  margin-top: -60px;
+}
+
+.photo-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #f5cb58;
+  object-fit: cover;
+  background-color: #fff;
+}
+
+.user-info {
+  margin-top: 20px;
+}
+
+.username {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.btn-settings,
+.btn-favorites {
+  display: block;
+  width: 80%;
+  padding: 10px;
+  margin: 10px auto;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #f5cb58;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-settings:hover,
+.btn-favorites:hover {
+  background-color: #e0b147;
+}
+
+.extra-section {
+  margin-top: 30px;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.extra-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.extra-section p {
+  font-size: 16px;
+  color: #666;
+}
+
+
+.extra-section {
+  margin-top: 30px;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.extra-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.extra-section p {
+  font-size: 16px;
+  color: #666;
+}
+
+.btn-change-password {
+  display: block;
+  width: 80%;
+  padding: 10px;
+  margin: 10px auto;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #f5cb58;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-change-password:hover {
+  background-color: #e0b147;
+}
