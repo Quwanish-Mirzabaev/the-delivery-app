@@ -9,8 +9,6 @@ function ProfilPage() {
         <div className="profile-photo">
         <RxAvatar             className="photo-circle"
         />
-
-       
         </div>
         <div className="user-info">
           <h2 className="username">Username</h2>
@@ -21,7 +19,6 @@ function ProfilPage() {
         </div>
         <div className="extra-section">
           <h3>About Me</h3>
-          <p>Here you can add additional information about the user.</p>
         </div>
         <div className="extra-section">
           <h3>Email</h3>
