@@ -1,7 +1,7 @@
 import React from 'react';
 import { SlBasket } from 'react-icons/sl'
 
-import style from '../Css/cartPage.module.css'; // Importing CSS module
+import style from '../Css/cartPage.module.css'; 
 function CartPage() {
   const cart = JSON.parse(localStorage.getItem("cart")) || [];
 

@@ -96,7 +96,7 @@ function MainPage() {
         </div>
       </div>
 
-      <div className="div-products">
+        <div className="div-products">
         <div className="products-grid">
           {productsToDisplay.length > 0 ? (
             productsToDisplay.map((product) => (

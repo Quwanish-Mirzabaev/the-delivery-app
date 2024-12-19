@@ -1,11 +1,9 @@
 import home from '../images/Homer.svg'
 import like from '../images/Izbrannoe.svg'
-import cart from '../images/card.svg'
 import user from '../images/user.svg'
 import { SlBasket } from 'react-icons/sl'
-import { CiUser } from "react-icons/ci";
 
-import '../Css/Main.css'
+import '../Css/Navbar.css'
 import { Link } from 'react-router-dom'
 function Main() {
 	return (
